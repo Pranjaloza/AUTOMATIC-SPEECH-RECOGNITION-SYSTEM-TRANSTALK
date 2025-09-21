@@ -17,13 +17,9 @@ from deep_translator import GoogleTranslator  # safer than googletrans
 st.markdown(
     """
     <style>
-    [data-testid="stAppViewContainer"] {
-    background-color: rgb(55, 80, 100);  /* <-- your dashboard background color */
-}
-
         html, body, [class*="css"] {
-            background-color: black;
-            color: white;
+            background-color: white;
+            color: black;
             font-family: 'Arial', sans-serif;
             }
             
@@ -33,7 +29,7 @@ st.markdown(
             font-weight: bold;
         }
         section[data-testid="stSidebar"] {
-            background-color:  rgb(33, 46, 58);
+            background-color: grey;
         }
         .stButton>button {
             background-color: #ff4b4b;
